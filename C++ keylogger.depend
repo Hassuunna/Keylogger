@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1670951563 source:e:\hassan\programming playfield\c++ keylogger\main.cpp
+	<fstream>
+	<string.h>
+	<string>
+	<windows.h>
+
