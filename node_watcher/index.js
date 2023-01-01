@@ -69,7 +69,7 @@ function updateRecorder(logsNo) {
     fs.writeFileSync('recorder.txt', logsNo.toString())
     return parseInt(curr)
 }
-// Insert into database4
+// Insert into database5
 async function Update(userQuery) {
     console.log('inserting new log', userQuery);
     const query = "INSERT INTO logs (`log`, `datetime`) VALUES (?, CURRENT_TIMESTAMP);"
